@@ -1,0 +1,10 @@
+Package: com.kongo.aovmenuhack
+Name: KONGO MOD MENU
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Nguyễn Huỳnh Đức
+Maintainer: Kongo
+Author: Kongo
+Icon: https://i.pinimg.com/736x/7a/3f/cd/7a3fcd03cbd78dc489d5f80668a2e84b.jpg
+Section: Liên Quân
+Version: 1.55.x.x
