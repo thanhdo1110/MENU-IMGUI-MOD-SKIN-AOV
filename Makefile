@@ -19,8 +19,8 @@ $(TWEAK_NAME)_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-unused-varia
 
 #Add dobby hook
 
-$(TWEAK_NAME)_FILES = ImGuiDrawView.mm config.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard mod/*.m) $(wildcard SSZipArchive/minizip/*.c) 
-$(TWEAK_NAME)_LDFLAGS += SSZipArchive/lib.a 
+$(TWEAK_NAME)_FILES = ImGuiDrawView.mm config.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm) $(wildcard mod/*.m) 
+$(TWEAK_NAME)_LDFLAGS += SSZipArchive/lib.a
 #$(TWEAK_NAME)_LIBRARIES += substrate
 # GO_EASY_ON_ME = 1
 
